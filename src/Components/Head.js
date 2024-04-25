@@ -13,7 +13,8 @@ const Head = () => {
     <div className='grid grid-flow-col p-5 m-2 shadow-lg'>
         <div className='flex col-span-1 justify-between'>
             <img onClick={()=>toggleMenuHandler()} className="h-8 cursor-pointer" alt="menu" src={menu}/>
-            <img className="h-12 mx-2 mt-[-5px]" alt="youtube-logo" src={youtube_logo}/>
+            <a href="/">
+            <img className="h-12 mx-2 mt-[-5px]" alt="youtube-logo" src={youtube_logo}/></a>
         </div>
         <div className='col-span-10 px-10'>
             <input className="w-1/2 border border-gray-400 p-2 rounded-l-full" type="text"/>
